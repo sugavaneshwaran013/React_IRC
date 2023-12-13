@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+}
+
+.Sid{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:40px;
+    font-weight: bold;
+    color: aliceblue;
+   background-color: black;
+   display: flex
+   
+}
+body{
+    background-image:url("C:\Users\sugav\OneDrive\Documents\GitHub\React_IRC\project1\myapp\src\assets\images\sugu.lll.jpg")
+}
+
+.left{
+    width: 130%;
+    margin-left: 20px;
+    color: red;
+}
+.right{
+    justify-content: center;
+    width:23%;
+    font-size: 25px;
+    margin-top: 11px;
+}
+.right1{
+    width:15%;
+    font-size: 25px;
+    margin-top: 11px;
+}
+.right2{
+    width:15%;
+    font-size: 25px;
+    margin-top: 11px;
+}
+.right:hover,.right1:hover,.right2:hover{
+    color: red;
+    transition: 0.65s;
+    cursor: pointer;
+}
